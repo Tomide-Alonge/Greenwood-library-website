@@ -33,6 +33,7 @@
 ---
 
 - On your terminal, create `HTML` files.
+
 ![create files](./img/6.create%20html%20files.png)
 
 - Using the Visual Studio Code editor, add contents to the`about_us.html` file.
@@ -50,7 +51,9 @@
 
 ![edit home.html](./img/10.home.png)
 
-`## STAGING, COMMITING AND PUSHING FILES`
+> #### `STAGING, COMMITING AND PUSHING FILES IN GIT`
+---
+
 
 - On the terminal, use `git status` command to know the current state of the repository.
 
@@ -61,21 +64,29 @@
 
 - Files in green indicate files are now staged and ready for commit.
 
-![git add](./IMG/12.git%20stage.png)
+
+
+![git add](./img/12.git%20stage.png)
+
 
 
 - Use the `git commit` command to capture changes in the repository.
 
 - The git commit command represents a "save version" of the project captured in time.
 
+
 ![git commit](<img/13.git commit.png>)
 
  - Use `git push` command to upload local repository content to a remote repository.
 
+
 ![git push](<img/14.git push.png>)
 
-> ## `CREATING A BRANCH IN GIT`
-#### `Adding Book Review`
+
+> ## `CREATING A BRANCH IN GIT`   
+(A simulation of Morgan's work)
+---
+#### `Adding Book Review branch`
 - Create a branch using the `git checkout -b`command, followed by the branch name and switch to it.
 
 ![create branch](<img/15.create branch.png>)
@@ -87,3 +98,46 @@
 - Add content to `review.html`, after which files should be staged, commited and pushed into the Git hub repository.
 
 ![add content](img/17.addcontent.png)
+
+- Navigate to your remote repository and click on the  main branch drop down.
+
+- Select the new `add-book-review` branch created.
+
+![select new branch](img/18.switchbranch.png)
+
+- Click on the `pull request` button besides the branch dropdown menu.
+
+
+![pull request](<img/19.pull request.png>)
+
+- Add a description of the changes created in the branch in the space provided.
+
+
+![description](./img/20.request.png)
+
+- Click on the `Merge pull request` in order to merge with the main branch.
+
+![merge](img/21.merge.png)
+
+## `CREATING NEW BRANCH` 
+(A simulation of Jamie's work.)
+---
+
+
+#### `Update-events branch`
+- Use command `git checkout -b` to create a new branch called "update-event."
+
+![alt text](img/22.createnewbranch.png)
+
+- Pull the latest changes from the main branch by making use of the command `git pull origin main`.
+
+
+![alt text](img/23.gitpull.png)
+
+- Create new file `updated-events.html`
+
+![create new file](img/24.createnewfile.png)
+
+- Add contents into `updated-events.html` after which files should be pushed into the Git hub repository for merging.
+
+![add content](img/25.addcontent.png)
